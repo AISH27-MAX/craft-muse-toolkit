@@ -61,12 +61,41 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Artisan color palette
+				terracotta: {
+					DEFAULT: 'hsl(var(--terracotta))',
+					light: 'hsl(var(--terracotta-light))',
+				},
+				sage: {
+					DEFAULT: 'hsl(var(--sage))',
+					dark: 'hsl(var(--sage-dark))',
+				},
+				cream: 'hsl(var(--cream))',
+				'warm-brown': 'hsl(var(--warm-brown))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-warm': 'var(--gradient-warm)',
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'card': 'var(--shadow-card)',
+				'soft': 'var(--shadow-soft)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'spring': 'var(--transition-spring)',
+			},
+			fontFamily: {
+				'heading': ['Inter', 'sans-serif'],
+				'body': ['Crimson Text', 'serif'],
 			},
 			keyframes: {
 				'accordion-down': {
